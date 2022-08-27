@@ -47,6 +47,7 @@ Citizen.CreateThread(function()
 
     -- North Yankton: 3217.697, -4834.826, 111.8152
     NorthYankton.Enable(false)
+    SetZoneEnabled(GetZoneFromNameId("PrLog"), false) -- REMOVES SNOW FROM CP
 
     -- ====================================================================
     -- =-------------------------- [GTA Online] --------------------------=
